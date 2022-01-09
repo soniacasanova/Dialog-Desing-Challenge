@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">       
+    <title>Dialog Design System</title>
+</head>
+<body>
+
+<div class="everything">
+    <!-- Trigger/Open The Modal -->
+    <button class="modal-button orange" href="#myModal1">!Cuidado¡</button>
+    
+    <!-- The Modal -->
+    <div id="myModal1" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="">
+          <span class="close">×</span>
+        </div>
+        <div class="modal-body">
+            <div class="bg" style=" background: #fa5e03;"><i class="fas fa-exclamation fa-lg"></i></div>
+          <h2>!Cuidado!</h2>
+          <p>No podrás volver atrás</p>
+          <div>
+            <button class="close btns">Borrar</button>
+            <button class="close btns">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+    
+    <!-- Trigger/Open The Modal -->
+    <button class="modal-button green" href="#myModal2">!Vamos¡</button>
+    
+    <!-- The Modal -->
+    <div id="myModal2" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="">
+          <span class="close">×</span>
+         
+        </div>
+        <div class="modal-body">
+            <div class="bg" style=" background: #1fd319;"><i class="fas fa-check fa-lg"></i></div>
+          <h2>!Vamos!</h2>
+          <p>Todo ha salido bien</p>
+          <div>
+            <button class="close btns">Cerrar</button>
+           
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  
+    
+    <!-- Trigger/Open The Modal -->
+    <button class="modal-button red" href="#myModal3">Upss</button>
+    
+    <!-- The Modal -->
+    <div id="myModal3" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="">
+          <span class="close">×</span>
+        </div>
+        <div class="modal-body">
+            <div class="bg" style=" background: rgb(255, 0, 0);"><i class="fas fa-times fa-lg"></i></div>
+            
+          <h2>Upss</h2>
+          <p>Algo ha pasado</p>
+         
+        </div>
+      </div>
+    
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/e1a710cb0e.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
